@@ -51,3 +51,14 @@ hr.about {
 #portfolio h1 {
   color: black;
 }
+#contact {
+  background-color: white;
+  margin: 0px 50px 0px 50px;
+}
+#contact h1 {
+  color: black;
+}
+.no-border {
+  border: none;
+  margin-left: 75px;
+}
