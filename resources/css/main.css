@@ -1,82 +1,53 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
-		<link rel="stylesheet" type="text/css" href="resources\css\main.css">
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-	</head>
-
-	<Body>
-		<div class="container.fluid">
-			<div class="header" id="top">
-				<img src="https://github.com/BurtyBurton/BurtyBurton.github.io/blob/master/resources/images/Escort.jpg?raw=true" class="img-responsive" style="width: 100%"/>
-			</div>
-			<div class="topnav" id="myTopnav">
-				<a href="#top" style="font-family: Lobster">Andy "Burty" Burton</a>
-				<div id="links">
-					<a href="#about">About</a>
-					<a href="#portfolio">Portfolio</a>
-					<a href="#contact">Contact</a>
-				</div>
-			</div>
-			<div id="about">
-				<br>
-				<h3 class="text-center">Junior Front End Web Developer - User Experience Designer</h3>
-				<br>
-				<hr class="about">
-				<br>
-				<p class="text-center">Junior Front-End Developer and web designer, Learning HTML CSS and Javascript</p>
-			</div>
-			<br>
-			<div id="portfolio">
-				<br>
-				<h1 class="text-center">Portfolio</h1>
-				<hr class="about" style="border-color:black">
-				<div class="row">
-					<div class="col-md-3">
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<a href="https://picsum.photos/200/?random" target="_blank">
-								<img src="https://picsum.photos/200/?random" alt="" style="width:100%">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<a href="https://github.com/BurtyBurton/BurtyBurton.github.io/blob/master/resources/images/Tribute-page.JPG?raw=true" target="_blank">
-								<img src="https://github.com/BurtyBurton/BurtyBurton.github.io/blob/master/resources/images/Tribute-page.JPG?raw=true" alt="" style="width:100%">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-3">
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<a href="https://picsum.photos/200/?random" target="_blank">
-								<img src="https://picsum.photos/200/?random" alt="" style="width:100%">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<a href="https://picsum.photos/200/?random" target="_blank">
-								<img src="https://picsum.photos/200/?random" alt="" style="width:100%">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3">
-					</div>
-				</div>
-			</div>
-			<div id="contact">
-				<br>
-				<h1 class="text-center">Contact Me</h1>
-				<hr class="about">
-			</div>
-		</div>
-	</html>
+body {
+  background-color: black;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #240FF3;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;  
+}
+#links {
+  float: right;
+  font-family: helvetica;
+  font-weight: bold;
+}
+#links a:hover {
+  background-color: #ddd;
+  color: #240FF3;
+}
+hr.about {
+	border-color: #FFFFFF;
+  border-top: 3px double #8c8b8b;
+  max-width: 600px;
+  color: white;
+}
+#pictures img {
+  margin-left: 25%;
+}
+#about p {
+  font-size: 20px;
+}
+#portfolio {
+  background-color: gray;
+  color: white;
+  margin: 0px 50px 0px 50px;
+}
+/* Add a hover effect (blue shadow) */
+#portfolio img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.row {
+  padding: 5px 5px;
+}
+#portfolio h1 {
+  color: black;
+}
