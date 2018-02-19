@@ -65,7 +65,7 @@ hr.about {
 #around-web {
 	background-color: grey;
 	color: black;
-	
+	margin: 0px 50px 0px 50px;
 }
 #around-web h3 {
 	font-size: 24px;
