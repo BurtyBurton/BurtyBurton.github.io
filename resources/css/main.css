@@ -67,12 +67,12 @@ hr.about {
 	color: grey;
 	margin: 0px 50px 0px 50px;
 }
-#around-web h3 {
+#footer h3 {
 	font-size: 24px;
 	font-weight: bold;
 	color :blue;
 	text-decoration: underline;
 }
-#around-web a {
+#footer a {
 	font-size: 30px;
 }
