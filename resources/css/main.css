@@ -62,10 +62,16 @@ hr.about {
   border: none;
   margin-left: 75px;
 }
+#around-web {
+	background-color: grey;
+	color: black;
+	
+}
 #around-web h3 {
 	font-size: 24px;
 	font-weight: bold;
 	color :blue;
+	text-decoration: underline;
 }
 #around-web a {
 	font-size: 30px;
